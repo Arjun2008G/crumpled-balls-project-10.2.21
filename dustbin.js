@@ -58,7 +58,7 @@ class dustbin
 			angleMode(RADIANS)
 			fill(255)
 			imageMode(CENTER);
-			this.image(this.image, 0, -this.dustbinHeight/2,this.dustbinWidth,this.dustbinHeight, this.dustbinHeigth)
+			image(this.image, 0, -this.dustbinHeight/2,this.dustbinWidth,this.dustbinHeight, this.dustbinHeigth)
 			//rect(0,0,this.dustbinWidth, this.wallThickness);
 			pop()
 			
